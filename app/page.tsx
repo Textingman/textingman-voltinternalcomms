@@ -10,7 +10,7 @@ export default function HomePage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">loyalty</span>
+                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">Lifecycle Loop</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -293,7 +293,7 @@ export default function HomePage() {
               Ready to Build Real Loyalty?
             </h2>
             <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-              Join thousands of businesses using Loyalty to turn customers into their biggest advocates. Start free, scale as you grow.
+              Join thousands of businesses using Lifecycle Loop to turn customers into their biggest advocates. Start free, scale as you grow.
             </p>
             <Link
               href="/signup"
@@ -310,9 +310,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <span className="text-2xl font-extrabold text-white tracking-tight">loyalty</span>
+              <span className="text-2xl font-extrabold text-white tracking-tight">Lifecycle Loop</span>
               <p className="text-gray-400 mt-3">
-                Loyalty tracking software that drives real engagement.
+                Lifecycle Loop — loyalty tracking software that drives real engagement.
               </p>
             </div>
             <div>
@@ -348,12 +348,12 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@loyalty.com
+                support@trylifecycleloop.com
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 Loyalty. All rights reserved.</p>
+            <p>&copy; 2026 Lifecycle Loop. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Loyalty",
+  title: "Lifecycle Loop",
   description: "Drive customer engagement with loyalty tracking software",
 };
 

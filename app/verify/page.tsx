@@ -126,7 +126,7 @@ function VerifyPageContent() {
         {/* Footer */}
         <div className="text-center pt-6 border-t border-[#E5E7EB]">
           <p className="text-xs text-[#555555]">
-            Secured by Volt Verify
+            Secured by Lifecycle Loop
           </p>
         </div>
       </div>
