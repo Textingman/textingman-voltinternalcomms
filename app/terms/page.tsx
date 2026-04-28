@@ -299,6 +299,11 @@ export default function TermsPage() {
               <p className="text-gray-400">
                 support@trylifecycleloop.com
               </p>
+              <p className="text-gray-400 mt-2 text-sm">
+                3 Germay Dr, Unit 4 #3226<br />
+                Wilmington, DE 19804<br />
+                United States
+              </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
