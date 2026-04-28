@@ -66,11 +66,6 @@ function VerifyPageContent() {
   return (
     <div className="min-h-screen bg-[#F9F9F9] flex items-center justify-center px-4 py-8">
       <div className="max-w-xl w-full bg-white rounded-2xl shadow-xl p-4 sm:p-6 md:p-8 relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1.5 before:bg-[#EFE810] before:rounded-t-2xl">
-        {/* Logo/Brand */}
-        <div className="flex justify-center mb-6 sm:mb-8">
-          <span className="text-2xl font-extrabold text-[#1A1A1A] tracking-tight">Lifecycle Loop</span>
-        </div>
-
         {/* Verification Content */}
         <div className="text-center mb-8">
           <div className="w-20 h-20 bg-[#EFE810] rounded-full flex items-center justify-center mx-auto mb-6">
