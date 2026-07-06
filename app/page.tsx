@@ -351,8 +351,8 @@ export default function HomePage() {
                 support@voltinternalcomms.com
               </p>
               <p className="text-gray-400 mt-2 text-sm">
-                3 Germay Dr, Unit 4 #3226<br />
-                Wilmington, DE 19804<br />
+                847 Commerce Blvd, Suite 312<br />
+                Austin, TX 78701<br />
                 United States
               </p>
             </div>
