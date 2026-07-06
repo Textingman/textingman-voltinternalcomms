@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function PrivacyPage() {
   return (
@@ -10,7 +9,7 @@ export default function PrivacyPage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <Image src="/logo-nav.png" alt="Volt Internal Comms" width={180} height={48} className="h-12 w-auto object-contain" />
+                <span className="text-2xl font-extrabold text-[#1A1A1A] tracking-tight">Volt Internal Comms</span>
               </Link>
             </div>
             <div className="hidden md:block">
