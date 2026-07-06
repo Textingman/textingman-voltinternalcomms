@@ -42,7 +42,7 @@ export default function SignupPage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">Lifecycle Loop</span>
+                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">Volt Internal Comms</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -106,7 +106,7 @@ export default function SignupPage() {
           ) : (
             <>
               <div className="mb-8">
-                <h2 className="text-2xl font-bold text-[#1A1A1A] mb-2">Get Started with Lifecycle Loop</h2>
+                <h2 className="text-2xl font-bold text-[#1A1A1A] mb-2">Get Started with Volt Internal Comms</h2>
                 <p className="text-[#555555]">
                   Tell us about your business and we&apos;ll build the perfect loyalty program for you.
                 </p>
@@ -227,7 +227,7 @@ export default function SignupPage() {
                         className="mt-1 h-4 w-4 text-[#EFE810] focus:ring-[#EFE810] border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="sms-optin" className="ml-3 text-sm leading-relaxed text-[#555555]">
-                        By checking this box and submitting this form, you agree to receive transactional account notification text messages from Lifecycle Loop. I understand I may opt out of SMS communication by replying &apos;STOP&apos;. Reply HELP or email support@trylifecycleloop.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by Lifecycle Loop.
+                        By checking this box and submitting this form, you agree to receive transactional account notification text messages from Volt Internal Comms. I understand I may opt out of SMS communication by replying &apos;STOP&apos;. Reply HELP or email support@voltinternalcomms.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by Volt Internal Comms.
                       </label>
                     </div>
                   </div>
@@ -288,9 +288,9 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <span className="text-2xl font-extrabold text-white tracking-tight">Lifecycle Loop</span>
+              <span className="text-2xl font-extrabold text-white tracking-tight">Volt Internal Comms</span>
               <p className="text-gray-400 mt-3">
-                Lifecycle Loop — loyalty tracking software that drives real engagement.
+                Volt Internal Comms — loyalty tracking software that drives real engagement.
               </p>
             </div>
             <div>
@@ -326,7 +326,7 @@ export default function SignupPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trylifecycleloop.com
+                support@voltinternalcomms.com
               </p>
               <p className="text-gray-400 mt-2 text-sm">
                 3 Germay Dr, Unit 4 #3226<br />
@@ -336,7 +336,7 @@ export default function SignupPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 Lifecycle Loop. All rights reserved.</p>
+            <p>&copy; 2026 Volt Internal Comms. All rights reserved.</p>
           </div>
         </div>
       </footer>

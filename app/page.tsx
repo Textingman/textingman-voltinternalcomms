@@ -10,7 +10,7 @@ export default function HomePage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">Lifecycle Loop</span>
+                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">Volt Internal Comms</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -48,7 +48,7 @@ export default function HomePage() {
             <span className="block text-[#EFE810] [-webkit-text-stroke:2px_#1A1A1A]">Loyal Fans</span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-[#555555]">
-            Drive repeat business and deepen customer relationships with our powerful loyalty tracking platform. Reward engagement, track behavior, and grow revenue — all in one place.
+            Drive repeat business and deepen customer relationships with our powerful internal communications platform. Reward engagement, track behavior, and grow revenue — all in one place.
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <Link
@@ -293,7 +293,7 @@ export default function HomePage() {
               Ready to Build Real Loyalty?
             </h2>
             <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-              Join thousands of businesses using Lifecycle Loop to turn customers into their biggest advocates. Start free, scale as you grow.
+              Join thousands of businesses using Volt Internal Comms to turn customers into their biggest advocates. Start free, scale as you grow.
             </p>
             <Link
               href="/signup"
@@ -310,9 +310,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <span className="text-2xl font-extrabold text-white tracking-tight">Lifecycle Loop</span>
+              <span className="text-2xl font-extrabold text-white tracking-tight">Volt Internal Comms</span>
               <p className="text-gray-400 mt-3">
-                Lifecycle Loop — loyalty tracking software that drives real engagement.
+                Volt Internal Comms — loyalty tracking software that drives real engagement.
               </p>
             </div>
             <div>
@@ -348,7 +348,7 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trylifecycleloop.com
+                support@voltinternalcomms.com
               </p>
               <p className="text-gray-400 mt-2 text-sm">
                 3 Germay Dr, Unit 4 #3226<br />
@@ -358,7 +358,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 Lifecycle Loop. All rights reserved.</p>
+            <p>&copy; 2026 Volt Internal Comms. All rights reserved.</p>
           </div>
         </div>
       </footer>

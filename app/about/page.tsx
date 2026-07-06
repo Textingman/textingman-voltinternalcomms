@@ -10,7 +10,7 @@ export default function AboutPage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">Lifecycle Loop</span>
+                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">Volt Internal Comms</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -41,7 +41,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-extrabold text-[#1A1A1A] mb-6">
-              About Lifecycle Loop
+              About Volt Internal Comms
             </h1>
             <p className="text-xl text-[#555555] max-w-3xl mx-auto">
               We&apos;re building the future of customer engagement — helping businesses of all sizes create loyalty programs that actually work, drive repeat revenue, and turn customers into advocates.
@@ -56,10 +56,10 @@ export default function AboutPage() {
           <div>
             <h2 className="text-4xl font-bold text-[#1A1A1A] mb-6">Our Mission</h2>
             <p className="text-lg text-[#555555] mb-4">
-              Lifecycle Loop was built to solve a fundamental business problem: acquiring a new customer costs 5–7x more than retaining an existing one, yet most businesses invest almost nothing in keeping customers coming back.
+              Volt Internal Comms was built to solve a fundamental business problem: acquiring a new customer costs 5–7x more than retaining an existing one, yet most businesses invest almost nothing in keeping customers coming back.
             </p>
             <p className="text-lg text-[#555555] mb-4">
-              We provide a simple, powerful loyalty tracking platform that makes it easy to reward engagement, understand customer behavior, and build lasting relationships that drive real revenue growth.
+              We provide a simple, powerful internal communications platform that makes it easy to reward engagement, understand customer behavior, and build lasting relationships that drive real revenue growth.
             </p>
             <p className="text-lg text-[#555555]">
               Our goal is to make enterprise-grade loyalty programs accessible to every business — from local shops to national brands.
@@ -115,7 +115,7 @@ export default function AboutPage() {
       <section className="bg-[#F9F9F9] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#1A1A1A] mb-4">Why Businesses Choose Lifecycle Loop</h2>
+            <h2 className="text-4xl font-bold text-[#1A1A1A] mb-4">Why Businesses Choose Volt Internal Comms</h2>
             <p className="text-xl text-[#555555]">
               Trusted by businesses that understand the value of keeping customers coming back
             </p>
@@ -172,7 +172,7 @@ export default function AboutPage() {
             Ready to Build Real Loyalty?
           </h2>
           <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses using Lifecycle Loop to drive repeat revenue and deeper customer relationships.
+            Join thousands of businesses using Volt Internal Comms to drive repeat revenue and deeper customer relationships.
           </p>
           <Link
             href="/signup"
@@ -188,9 +188,9 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <span className="text-2xl font-extrabold text-white tracking-tight">Lifecycle Loop</span>
+              <span className="text-2xl font-extrabold text-white tracking-tight">Volt Internal Comms</span>
               <p className="text-gray-400 mt-3">
-                Lifecycle Loop — loyalty tracking software that drives real engagement.
+                Volt Internal Comms — loyalty tracking software that drives real engagement.
               </p>
             </div>
             <div>
@@ -226,7 +226,7 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trylifecycleloop.com
+                support@voltinternalcomms.com
               </p>
               <p className="text-gray-400 mt-2 text-sm">
                 3 Germay Dr, Unit 4 #3226<br />
@@ -236,7 +236,7 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 Lifecycle Loop. All rights reserved.</p>
+            <p>&copy; 2026 Volt Internal Comms. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -9,7 +9,7 @@ export default function TermsPage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">Lifecycle Loop</span>
+                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">Volt Internal Comms</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -51,12 +51,12 @@ export default function TermsPage() {
           
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Acceptance of Terms</h2>
           <p className="text-gray-600 mb-6">
-            By accessing or using Lifecycle Loop&apos;s loyalty tracking platform ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service, including businesses, developers, and end users.
+            By accessing or using Volt Internal Comms&apos;s internal communications platform ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service, including businesses, developers, and end users.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Description of Service</h2>
           <p className="text-gray-600 mb-6">
-            Lifecycle Loop provides a customer engagement and loyalty tracking platform that allows businesses to create, manage, and optimize loyalty programs. The Service includes:
+            Volt Internal Comms provides a customer engagement and internal communications platform that allows businesses to create, manage, and optimize loyalty programs. The Service includes:
           </p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
             <li>Points and rewards program management</li>
@@ -112,7 +112,7 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.3 Rewards Fulfillment</h3>
           <p className="text-gray-600 mb-6">
-            You are solely responsible for fulfilling any rewards, discounts, or benefits promised to your customers through your loyalty program. Lifecycle Loop is not responsible for any rewards or benefits offered through your program.
+            You are solely responsible for fulfilling any rewards, discounts, or benefits promised to your customers through your loyalty program. Volt Internal Comms is not responsible for any rewards or benefits offered through your program.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">6. Fees and Payment</h2>
@@ -136,7 +136,7 @@ export default function TermsPage() {
           
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">7.1 Our Rights</h3>
           <p className="text-gray-600 mb-6">
-            The Service and all content, features, and functionality are owned by Lifecycle Loop and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
+            The Service and all content, features, and functionality are owned by Volt Internal Comms and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">7.2 Your Content</h3>
@@ -180,7 +180,7 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">11. Indemnification</h2>
           <p className="text-gray-600 mb-6">
-            You agree to indemnify, defend, and hold harmless Lifecycle Loop and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) arising from:
+            You agree to indemnify, defend, and hold harmless Volt Internal Comms and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) arising from:
           </p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
             <li>Your use of the Service</li>
@@ -228,7 +228,7 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">14.2 Entire Agreement</h3>
           <p className="text-gray-600 mb-6">
-            These Terms, together with our Privacy Policy, constitute the entire agreement between you and Lifecycle Loop regarding the Service and supersede all prior agreements.
+            These Terms, together with our Privacy Policy, constitute the entire agreement between you and Volt Internal Comms regarding the Service and supersede all prior agreements.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">14.3 Severability</h3>
@@ -246,9 +246,9 @@ export default function TermsPage() {
             If you have any questions about these Terms, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">legal@trylifecycleloop.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">support@trylifecycleloop.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#1A1A1A] hover:text-[#555555]">https://trylifecycleloop.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@voltinternalcomms.com" className="text-[#1A1A1A] hover:text-[#555555]">legal@voltinternalcomms.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@voltinternalcomms.com" className="text-[#1A1A1A] hover:text-[#555555]">support@voltinternalcomms.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#1A1A1A] hover:text-[#555555]">https://voltinternalcomms.com</a></p>
           </div>
 
         </div>
@@ -259,9 +259,9 @@ export default function TermsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <span className="text-2xl font-extrabold text-white tracking-tight">Lifecycle Loop</span>
+              <span className="text-2xl font-extrabold text-white tracking-tight">Volt Internal Comms</span>
               <p className="text-gray-400 mt-3">
-                Lifecycle Loop — loyalty tracking software that drives real engagement.
+                Volt Internal Comms — loyalty tracking software that drives real engagement.
               </p>
             </div>
             <div>
@@ -297,7 +297,7 @@ export default function TermsPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trylifecycleloop.com
+                support@voltinternalcomms.com
               </p>
               <p className="text-gray-400 mt-2 text-sm">
                 3 Germay Dr, Unit 4 #3226<br />
@@ -307,7 +307,7 @@ export default function TermsPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 Lifecycle Loop. All rights reserved.</p>
+            <p>&copy; 2026 Volt Internal Comms. All rights reserved.</p>
           </div>
         </div>
       </footer>

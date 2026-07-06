@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Lifecycle Loop",
+  title: "Volt Internal Comms",
   description: "Drive customer engagement with loyalty tracking software",
 };
 
