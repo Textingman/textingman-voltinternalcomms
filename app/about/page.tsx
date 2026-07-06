@@ -11,7 +11,7 @@ export default function AboutPage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <Image src="/logo-nav.png" alt="Lifecycle Loop" width={180} height={48} className="h-12 w-auto object-contain" />
+                <Image src="/logo-nav.png" alt="Volt Internal Comms" width={180} height={48} className="h-12 w-auto object-contain" />
               </Link>
             </div>
             <div className="hidden md:block">
@@ -45,7 +45,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-extrabold text-[#1A1A1A] mb-6">
-              About Lifecycle Loop
+              About Volt Internal Comms
             </h1>
             <p className="text-xl text-[#555555] max-w-3xl mx-auto">
               We&apos;re building the future of employee engagement — helping companies of all sizes create recognition programs that actually work, drive retention, and turn employees into advocates.
@@ -60,7 +60,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-4xl font-bold text-[#1A1A1A] mb-6">Our Mission</h2>
             <p className="text-lg text-[#555555] mb-4">
-              Lifecycle Loop was built to solve a fundamental workplace problem: companies spend enormous resources acquiring talent, yet invest almost nothing in keeping employees engaged, recognized, and motivated to stay.
+              Volt Internal Comms was built to solve a fundamental workplace problem: companies spend enormous resources acquiring talent, yet invest almost nothing in keeping employees engaged, recognized, and motivated to stay.
             </p>
             <p className="text-lg text-[#555555] mb-4">
               We provide a simple, powerful employee engagement platform that makes it easy to recognize effort, reward performance, and build a culture people genuinely love — from day one through every milestone.
@@ -119,7 +119,7 @@ export default function AboutPage() {
       <section className="bg-[#F9F9F9] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#1A1A1A] mb-4">Why Companies Choose Lifecycle Loop</h2>
+            <h2 className="text-4xl font-bold text-[#1A1A1A] mb-4">Why Companies Choose Volt Internal Comms</h2>
             <p className="text-xl text-[#555555]">
               Trusted by teams that understand the value of keeping employees engaged and recognized
             </p>
@@ -176,7 +176,7 @@ export default function AboutPage() {
             Ready to Build a Culture People Love?
           </h2>
           <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Join companies using Lifecycle Loop to recognize, reward, and retain their best people. Request access today.
+            Join companies using Volt Internal Comms to recognize, reward, and retain their best people. Request access today.
           </p>
           <Link
             href="/signup"
@@ -192,7 +192,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <span className="text-2xl font-extrabold text-white tracking-tight">Lifecycle Loop</span>
+              <span className="text-2xl font-extrabold text-white tracking-tight">Volt Internal Comms</span>
               <p className="text-gray-400 mt-3">
                 Employee engagement software that drives real culture.
               </p>
@@ -235,23 +235,23 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trylifecycleloop.com
+                support@tryvoltinternalcomms.com
               </p>
               <p className="text-gray-400 mt-1">
-                (512) 394-7823
+                (720) 583-4916
               </p>
               <p className="text-gray-400 mt-2 text-sm">
-                847 Commerce Blvd, Suite 312<br />
-                Austin, TX 78701<br />
+                2241 Ridgewood Ave, Suite 108<br />
+                Denver, CO 80203<br />
                 United States
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-gray-400">
-            <p>&copy; 2026 Lifecycle Loop. All rights reserved.</p>
+            <p>&copy; 2026 Volt Internal Comms. All rights reserved.</p>
             <div className="flex items-center gap-4">
               {/* LinkedIn */}
-              <a href="https://www.linkedin.com/company/lifecycleloop/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/company/voltinternalcomms/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                 </svg>

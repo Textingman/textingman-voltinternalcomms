@@ -51,7 +51,7 @@ export default function SignupPage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <Image src="/logo-nav.png" alt="Lifecycle Loop" width={180} height={48} className="h-12 w-auto object-contain" />
+                <Image src="/logo-nav.png" alt="Volt Internal Comms" width={180} height={48} className="h-12 w-auto object-contain" />
               </Link>
             </div>
             <div className="hidden md:block">
@@ -71,7 +71,7 @@ export default function SignupPage() {
       {/* Hero */}
       <section className="bg-[#F9F9F9] py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl font-extrabold text-[#1A1A1A] mb-3">Request Access to Lifecycle Loop</h1>
+          <h1 className="text-4xl font-extrabold text-[#1A1A1A] mb-3">Request Access to Volt Internal Comms</h1>
           <p className="text-xl text-[#555555] max-w-2xl mx-auto">
             Join your team on the employee engagement platform that makes recognition meaningful.
           </p>
@@ -250,7 +250,7 @@ export default function SignupPage() {
                     onChange={handleChange}
                     className="mt-1 h-4 w-4 text-[#EFE810] focus:ring-[#EFE810] border-gray-300 rounded flex-shrink-0" />
                   <label htmlFor="smsOptIn" className="ml-3 text-sm leading-relaxed text-[#555555]">
-                    By checking this box and submitting this form, you agree to receive alert related text messages from Lifecycle Loop. I understand I may opt out of SMS communication by replying <strong>STOP</strong>. Reply <strong>HELP</strong> or email <a href="mailto:support@trylifecycleloop.com" className="text-[#1A1A1A] underline">support@trylifecycleloop.com</a> for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form or to use our services. All messages will be handled by Lifecycle Loop.
+                    By checking this box and submitting this form, you agree to receive alert related text messages from Volt Internal Comms. I understand I may opt out of SMS communication by replying <strong>STOP</strong>. Reply <strong>HELP</strong> or email <a href="mailto:support@tryvoltinternalcomms.com" className="text-[#1A1A1A] underline">support@tryvoltinternalcomms.com</a> for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form or to use our services. All messages will be handled by Volt Internal Comms.
                   </label>
                 </div>
               </div>
@@ -295,12 +295,12 @@ export default function SignupPage() {
               </p>
               <div className="bg-[#F9F9F9] border border-[#E5E7EB] rounded-xl p-6 mb-8 text-left max-w-md mx-auto">
                 <p className="text-[#555555] text-sm leading-relaxed">
-                  📧 <strong>We&apos;ve notified your employer</strong> (Company ID: <strong>{formData.companyId}</strong>) that you&apos;ve requested access to Lifecycle Loop. Once they approve your request, you&apos;ll receive an email at <strong>{formData.email}</strong> with instructions to activate your account.
+                  📧 <strong>We&apos;ve notified your employer</strong> (Company ID: <strong>{formData.companyId}</strong>) that you&apos;ve requested access to Volt Internal Comms. Once they approve your request, you&apos;ll receive an email at <strong>{formData.email}</strong> with instructions to activate your account.
                 </p>
                 <p className="text-[#555555] text-sm leading-relaxed mt-3">
                   ⏱ Approval typically takes <strong>1–2 business days</strong>. If you have questions, contact us at{' '}
-                  <a href="mailto:support@trylifecycleloop.com" className="text-[#1A1A1A] underline">support@trylifecycleloop.com</a>{' '}
-                  or call <a href="tel:+15123947823" className="text-[#1A1A1A] underline">(512) 394-7823</a>.
+                  <a href="mailto:support@tryvoltinternalcomms.com" className="text-[#1A1A1A] underline">support@tryvoltinternalcomms.com</a>{' '}
+                  or call <a href="tel:+17205834916" className="text-[#1A1A1A] underline">(720) 583-4916</a>.
                 </p>
               </div>
               <Link href="/"
@@ -318,7 +318,7 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <span className="text-2xl font-extrabold text-white tracking-tight">Lifecycle Loop</span>
+              <span className="text-2xl font-extrabold text-white tracking-tight">Volt Internal Comms</span>
               <p className="text-gray-400 mt-3">
                 Employee engagement software that drives real culture.
               </p>
@@ -340,21 +340,21 @@ export default function SignupPage() {
             </div>
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
-              <p className="text-gray-400">support@trylifecycleloop.com</p>
-              <p className="text-gray-400 mt-1 text-sm">(512) 394-7823</p>
-              <p className="text-gray-400 mt-1">(512) 394-7823</p>
+              <p className="text-gray-400">support@tryvoltinternalcomms.com</p>
+              <p className="text-gray-400 mt-1 text-sm">(720) 583-4916</p>
+              <p className="text-gray-400 mt-1">(720) 583-4916</p>
               <p className="text-gray-400 mt-2 text-sm">
-                847 Commerce Blvd, Suite 312<br />
-                Austin, TX 78701<br />
+                2241 Ridgewood Ave, Suite 108<br />
+                Denver, CO 80203<br />
                 United States
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-gray-400">
-            <p>&copy; 2026 Lifecycle Loop. All rights reserved.</p>
+            <p>&copy; 2026 Volt Internal Comms. All rights reserved.</p>
             <div className="flex items-center gap-4">
               {/* LinkedIn */}
-              <a href="https://www.linkedin.com/company/lifecycleloop/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/company/voltinternalcomms/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                 </svg>

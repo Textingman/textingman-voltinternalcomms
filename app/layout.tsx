@@ -13,20 +13,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Lifecycle Loop — Employee Engagement Platform",
-  description: "Recognize effort, reward performance, and build a culture people love. Lifecycle Loop is the employee engagement platform that drives real recognition, reduces turnover, and keeps your team motivated.",
+  title: "Volt Internal Comms — Employee Engagement Platform",
+  description: "Recognize effort, reward performance, and build a culture people love. Volt Internal Comms is the employee engagement platform that drives real recognition, reduces turnover, and keeps your team motivated.",
   keywords: "employee engagement, employee recognition, workplace culture, employee rewards, team engagement, HR software, employee retention",
   openGraph: {
-    title: "Lifecycle Loop — Employee Engagement Platform",
+    title: "Volt Internal Comms — Employee Engagement Platform",
     description: "Recognize effort, reward performance, and build a culture people love. The employee engagement platform that drives real recognition and reduces turnover.",
-    url: "https://trylifecycleloop.com",
-    siteName: "Lifecycle Loop",
+    url: "https://tryvoltinternalcomms.com",
+    siteName: "Volt Internal Comms",
     images: [
       {
         url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "Lifecycle Loop — Employee Engagement Platform",
+        alt: "Volt Internal Comms — Employee Engagement Platform",
       },
     ],
     locale: "en_US",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lifecycle Loop — Employee Engagement Platform",
+    title: "Volt Internal Comms — Employee Engagement Platform",
     description: "Recognize effort, reward performance, and build a culture people love.",
     images: ["/logo.png"],
   },

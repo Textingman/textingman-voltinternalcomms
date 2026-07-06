@@ -10,7 +10,7 @@ export default function TermsPage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <Image src="/logo-nav.png" alt="Lifecycle Loop" width={180} height={48} className="h-12 w-auto object-contain" />
+                <Image src="/logo-nav.png" alt="Volt Internal Comms" width={180} height={48} className="h-12 w-auto object-contain" />
               </Link>
             </div>
             <div className="hidden md:block">
@@ -55,12 +55,12 @@ export default function TermsPage() {
           
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Acceptance of Terms</h2>
           <p className="text-gray-600 mb-6">
-            By accessing or using Lifecycle Loop&apos;s loyalty tracking platform ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service, including businesses, developers, and end users.
+            By accessing or using Volt Internal Comms&apos;s loyalty tracking platform ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service, including businesses, developers, and end users.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Description of Service</h2>
           <p className="text-gray-600 mb-6">
-            Lifecycle Loop provides a customer engagement and loyalty tracking platform that allows businesses to create, manage, and optimize loyalty programs. The Service includes:
+            Volt Internal Comms provides a customer engagement and loyalty tracking platform that allows businesses to create, manage, and optimize loyalty programs. The Service includes:
           </p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
             <li>Points and rewards program management</li>
@@ -116,7 +116,7 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.3 Rewards Fulfillment</h3>
           <p className="text-gray-600 mb-6">
-            You are solely responsible for fulfilling any rewards, discounts, or benefits promised to your customers through your loyalty program. Lifecycle Loop is not responsible for any rewards or benefits offered through your program.
+            You are solely responsible for fulfilling any rewards, discounts, or benefits promised to your customers through your loyalty program. Volt Internal Comms is not responsible for any rewards or benefits offered through your program.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">6. Fees and Payment</h2>
@@ -140,7 +140,7 @@ export default function TermsPage() {
           
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">7.1 Our Rights</h3>
           <p className="text-gray-600 mb-6">
-            The Service and all content, features, and functionality are owned by Lifecycle Loop and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
+            The Service and all content, features, and functionality are owned by Volt Internal Comms and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">7.2 Your Content</h3>
@@ -184,7 +184,7 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">11. Indemnification</h2>
           <p className="text-gray-600 mb-6">
-            You agree to indemnify, defend, and hold harmless Lifecycle Loop and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) arising from:
+            You agree to indemnify, defend, and hold harmless Volt Internal Comms and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) arising from:
           </p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
             <li>Your use of the Service</li>
@@ -232,7 +232,7 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">14.2 Entire Agreement</h3>
           <p className="text-gray-600 mb-6">
-            These Terms, together with our Privacy Policy, constitute the entire agreement between you and Lifecycle Loop regarding the Service and supersede all prior agreements.
+            These Terms, together with our Privacy Policy, constitute the entire agreement between you and Volt Internal Comms regarding the Service and supersede all prior agreements.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">14.3 Severability</h3>
@@ -249,32 +249,32 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.1 Overview</h3>
           <p className="text-gray-600 mb-6">
-            Lifecycle Loop is committed to responsible and transparent SMS communications. This section describes how and when we use SMS (text messaging) to communicate with our users.
+            Volt Internal Comms is committed to responsible and transparent SMS communications. This section describes how and when we use SMS (text messaging) to communicate with our users.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.2 What We Send</h3>
           <p className="text-gray-600 mb-6">
-            Lifecycle Loop <strong>only sends alert related text messages</strong> via SMS. We do not send marketing, promotional, or advertising messages of any kind.
+            Volt Internal Comms <strong>only sends alert related text messages</strong> via SMS. We do not send marketing, promotional, or advertising messages of any kind.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.3 Opt-In</h3>
           <p className="text-gray-600 mb-6">
-            SMS notifications are optional. You may opt in to receive transactional SMS messages during the account registration process by checking the SMS opt-in box. Opting in is not required to use the Lifecycle Loop platform.
+            SMS notifications are optional. You may opt in to receive transactional SMS messages during the account registration process by checking the SMS opt-in box. Opting in is not required to use the Volt Internal Comms platform.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.4 Opt-Out</h3>
           <p className="text-gray-600 mb-6">
-            You may opt out of SMS notifications at any time by replying <strong>STOP</strong> to any message you receive from us. After opting out, you will no longer receive SMS messages from Lifecycle Loop. To re-enable SMS notifications, contact us at <a href="mailto:support@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">support@trylifecycleloop.com</a>.
+            You may opt out of SMS notifications at any time by replying <strong>STOP</strong> to any message you receive from us. After opting out, you will no longer receive SMS messages from Volt Internal Comms. To re-enable SMS notifications, contact us at <a href="mailto:support@tryvoltinternalcomms.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryvoltinternalcomms.com</a>.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.5 Help</h3>
           <p className="text-gray-600 mb-6">
-            For help with SMS messages, reply <strong>HELP</strong> to any message or contact us at <a href="mailto:support@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">support@trylifecycleloop.com</a> or <a href="tel:+15123947823" className="text-[#1A1A1A] hover:text-[#555555]">(512) 394-7823</a>.
+            For help with SMS messages, reply <strong>HELP</strong> to any message or contact us at <a href="mailto:support@tryvoltinternalcomms.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryvoltinternalcomms.com</a> or <a href="tel:+17205834916" className="text-[#1A1A1A] hover:text-[#555555]">(720) 583-4916</a>.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.6 Message &amp; Data Rates</h3>
           <p className="text-gray-600 mb-6">
-            Message and data rates may apply depending on your mobile carrier and plan. Message frequency varies based on your account activity. Lifecycle Loop is not responsible for any charges incurred from your mobile carrier.
+            Message and data rates may apply depending on your mobile carrier and plan. Message frequency varies based on your account activity. Volt Internal Comms is not responsible for any charges incurred from your mobile carrier.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.7 Data Privacy</h3>
@@ -293,9 +293,9 @@ export default function TermsPage() {
             If you have any questions about these Terms, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">legal@trylifecycleloop.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">support@trylifecycleloop.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#1A1A1A] hover:text-[#555555]">https://trylifecycleloop.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@tryvoltinternalcomms.com" className="text-[#1A1A1A] hover:text-[#555555]">legal@tryvoltinternalcomms.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@tryvoltinternalcomms.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryvoltinternalcomms.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#1A1A1A] hover:text-[#555555]">https://tryvoltinternalcomms.com</a></p>
           </div>
 
         </div>
@@ -306,9 +306,9 @@ export default function TermsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <span className="text-2xl font-extrabold text-white tracking-tight">Lifecycle Loop</span>
+              <span className="text-2xl font-extrabold text-white tracking-tight">Volt Internal Comms</span>
               <p className="text-gray-400 mt-3">
-                Lifecycle Loop — loyalty tracking software that drives real engagement.
+                Volt Internal Comms — loyalty tracking software that drives real engagement.
               </p>
             </div>
             <div>
@@ -349,23 +349,23 @@ export default function TermsPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trylifecycleloop.com
+                support@tryvoltinternalcomms.com
               </p>
               <p className="text-gray-400 mt-1">
-                (512) 394-7823
+                (720) 583-4916
               </p>
               <p className="text-gray-400 mt-2 text-sm">
-                847 Commerce Blvd, Suite 312<br />
-                Austin, TX 78701<br />
+                2241 Ridgewood Ave, Suite 108<br />
+                Denver, CO 80203<br />
                 United States
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-gray-400">
-            <p>&copy; 2026 Lifecycle Loop. All rights reserved.</p>
+            <p>&copy; 2026 Volt Internal Comms. All rights reserved.</p>
             <div className="flex items-center gap-4">
               {/* LinkedIn */}
-              <a href="https://www.linkedin.com/company/lifecycleloop/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/company/voltinternalcomms/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                 </svg>
