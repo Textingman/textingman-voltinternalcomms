@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function PrivacyPage() {
   return (
@@ -9,7 +10,7 @@ export default function PrivacyPage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">Volt Internal Comms</span>
+                <Image src="/logo-nav.png" alt="Lifecycle Loop" width={180} height={48} className="h-12 w-auto object-contain" />
               </Link>
             </div>
             <div className="hidden md:block">
@@ -25,6 +26,9 @@ export default function PrivacyPage() {
                 </Link>
                 <Link href="/terms" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
+                </Link>
+                <Link href="/contact" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                  Contact
                 </Link>
                 <Link href="/signup" className="bg-[#EFE810] text-[#1A1A1A] hover:bg-[#d4cd00] px-4 py-2 rounded-md text-sm font-semibold">
                   Get Started
@@ -51,7 +55,7 @@ export default function PrivacyPage() {
           
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Introduction</h2>
           <p className="text-gray-600 mb-6">
-            Volt Internal Comms ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our internal communications platform and website at voltinternalcomms.com.
+            Lifecycle Loop ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our loyalty tracking platform and website at trylifecycleloop.com.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Information We Collect</h2>
@@ -66,7 +70,7 @@ export default function PrivacyPage() {
           </ul>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">2.2 Customer Loyalty Data</h3>
-          <p className="text-gray-600 mb-4">When you use our internal communications platform, we collect data to power your loyalty program, including:</p>
+          <p className="text-gray-600 mb-4">When you use our loyalty tracking platform, we collect data to power your loyalty program, including:</p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
             <li>Customer purchase history and transaction data</li>
             <li>Points balances and redemption history</li>
@@ -91,7 +95,7 @@ export default function PrivacyPage() {
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">3. How We Use Your Information</h2>
           <p className="text-gray-600 mb-4">We use the information we collect to:</p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
-            <li>Provide and maintain our internal communications platform</li>
+            <li>Provide and maintain our loyalty tracking platform</li>
             <li>Power your loyalty programs, points tracking, and rewards</li>
             <li>Process your transactions and manage your account</li>
             <li>Send you service-related communications and program updates</li>
@@ -150,7 +154,7 @@ export default function PrivacyPage() {
             <li><strong>Opt-out:</strong> Opt out of marketing communications</li>
           </ul>
           <p className="text-gray-600 mb-6">
-            To exercise these rights, please contact us at <a href="mailto:privacy@voltinternalcomms.com" className="text-[#1A1A1A] hover:text-[#555555]">privacy@voltinternalcomms.com</a>.
+            To exercise these rights, please contact us at <a href="mailto:privacy@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">privacy@trylifecycleloop.com</a>.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">8. Cookies and Tracking Technologies</h2>
@@ -178,14 +182,31 @@ export default function PrivacyPage() {
             We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the &quot;Last Updated&quot; date. You are advised to review this Privacy Policy periodically for any changes.
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">13. Contact Us</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">13. SMS Communications</h2>
+          <p className="text-gray-600 mb-4">
+            Lifecycle Loop may send SMS (text message) communications to users who have opted in. Our SMS program is limited exclusively to <strong>alert related text messages</strong>, which may include:
+          </p>
+          <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
+            <li>Account access and onboarding confirmations</li>
+            <li>Recognition and reward activity alerts</li>
+            <li>Account security notifications</li>
+            <li>Program status updates directly related to your account</li>
+          </ul>
+          <p className="text-gray-600 mb-4">
+            <strong>We do not send marketing or promotional SMS messages.</strong> No mobile information will be shared with or sold to third parties for marketing or promotional purposes.
+          </p>
+          <p className="text-gray-600 mb-4">
+            Message and data rates may apply. Message frequency varies based on account activity. To opt out of SMS notifications at any time, reply <strong>STOP</strong> to any message. For help, reply <strong>HELP</strong> or contact us at <a href="mailto:support@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">support@trylifecycleloop.com</a>.
+          </p>
+
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">14. Contact Us</h2>
           <p className="text-gray-600 mb-4">
             If you have any questions about this Privacy Policy or our privacy practices, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:privacy@voltinternalcomms.com" className="text-[#1A1A1A] hover:text-[#555555]">privacy@voltinternalcomms.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@voltinternalcomms.com" className="text-[#1A1A1A] hover:text-[#555555]">support@voltinternalcomms.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#1A1A1A] hover:text-[#555555]">https://voltinternalcomms.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:privacy@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">privacy@trylifecycleloop.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">support@trylifecycleloop.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#1A1A1A] hover:text-[#555555]">https://trylifecycleloop.com</a></p>
           </div>
 
         </div>
@@ -196,9 +217,9 @@ export default function PrivacyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <span className="text-2xl font-extrabold text-white tracking-tight">Volt Internal Comms</span>
+              <span className="text-2xl font-extrabold text-white tracking-tight">Lifecycle Loop</span>
               <p className="text-gray-400 mt-3">
-                Volt Internal Comms — loyalty tracking software that drives real engagement.
+                Lifecycle Loop — loyalty tracking software that drives real engagement.
               </p>
             </div>
             <div>
@@ -229,12 +250,20 @@ export default function PrivacyPage() {
                     Terms of Service
                   </Link>
                 </li>
+                <li>
+                  <Link href="/sms-policy" className="text-gray-400 hover:text-white">
+                    SMS Policy
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@voltinternalcomms.com
+                support@trylifecycleloop.com
+              </p>
+              <p className="text-gray-400 mt-1">
+                (512) 394-7823
               </p>
               <p className="text-gray-400 mt-2 text-sm">
                 847 Commerce Blvd, Suite 312<br />
@@ -243,8 +272,22 @@ export default function PrivacyPage() {
               </p>
             </div>
           </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 Volt Internal Comms. All rights reserved.</p>
+          <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-gray-400">
+            <p>&copy; 2026 Lifecycle Loop. All rights reserved.</p>
+            <div className="flex items-center gap-4">
+              {/* LinkedIn */}
+              <a href="https://www.linkedin.com/company/lifecycleloop/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              {/* Google */}
+              <a href="https://share.google/Nl9xEk7kfvDH5ZuOs" target="_blank" rel="noopener noreferrer" aria-label="Google" className="text-gray-400 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/>
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </footer>

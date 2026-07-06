@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function TermsPage() {
   return (
@@ -9,7 +10,7 @@ export default function TermsPage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">Volt Internal Comms</span>
+                <Image src="/logo-nav.png" alt="Lifecycle Loop" width={180} height={48} className="h-12 w-auto object-contain" />
               </Link>
             </div>
             <div className="hidden md:block">
@@ -25,6 +26,9 @@ export default function TermsPage() {
                 </Link>
                 <Link href="/terms" className="text-[#1A1A1A] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
+                </Link>
+                <Link href="/contact" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                  Contact
                 </Link>
                 <Link href="/signup" className="bg-[#EFE810] text-[#1A1A1A] hover:bg-[#d4cd00] px-4 py-2 rounded-md text-sm font-semibold">
                   Get Started
@@ -51,12 +55,12 @@ export default function TermsPage() {
           
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Acceptance of Terms</h2>
           <p className="text-gray-600 mb-6">
-            By accessing or using Volt Internal Comms&apos;s internal communications platform ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service, including businesses, developers, and end users.
+            By accessing or using Lifecycle Loop&apos;s loyalty tracking platform ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service, including businesses, developers, and end users.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Description of Service</h2>
           <p className="text-gray-600 mb-6">
-            Volt Internal Comms provides a customer engagement and internal communications platform that allows businesses to create, manage, and optimize loyalty programs. The Service includes:
+            Lifecycle Loop provides a customer engagement and loyalty tracking platform that allows businesses to create, manage, and optimize loyalty programs. The Service includes:
           </p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
             <li>Points and rewards program management</li>
@@ -112,7 +116,7 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.3 Rewards Fulfillment</h3>
           <p className="text-gray-600 mb-6">
-            You are solely responsible for fulfilling any rewards, discounts, or benefits promised to your customers through your loyalty program. Volt Internal Comms is not responsible for any rewards or benefits offered through your program.
+            You are solely responsible for fulfilling any rewards, discounts, or benefits promised to your customers through your loyalty program. Lifecycle Loop is not responsible for any rewards or benefits offered through your program.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">6. Fees and Payment</h2>
@@ -136,7 +140,7 @@ export default function TermsPage() {
           
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">7.1 Our Rights</h3>
           <p className="text-gray-600 mb-6">
-            The Service and all content, features, and functionality are owned by Volt Internal Comms and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
+            The Service and all content, features, and functionality are owned by Lifecycle Loop and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">7.2 Your Content</h3>
@@ -180,7 +184,7 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">11. Indemnification</h2>
           <p className="text-gray-600 mb-6">
-            You agree to indemnify, defend, and hold harmless Volt Internal Comms and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) arising from:
+            You agree to indemnify, defend, and hold harmless Lifecycle Loop and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) arising from:
           </p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
             <li>Your use of the Service</li>
@@ -228,7 +232,7 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">14.2 Entire Agreement</h3>
           <p className="text-gray-600 mb-6">
-            These Terms, together with our Privacy Policy, constitute the entire agreement between you and Volt Internal Comms regarding the Service and supersede all prior agreements.
+            These Terms, together with our Privacy Policy, constitute the entire agreement between you and Lifecycle Loop regarding the Service and supersede all prior agreements.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">14.3 Severability</h3>
@@ -241,14 +245,57 @@ export default function TermsPage() {
             We reserve the right to modify these Terms at any time. We will notify you of material changes by posting the updated Terms on our website and updating the &quot;Last Updated&quot; date. Your continued use of the Service after changes become effective constitutes acceptance of the modified Terms.
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">16. Contact Information</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">16. SMS Communications Policy</h2>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.1 Overview</h3>
+          <p className="text-gray-600 mb-6">
+            Lifecycle Loop is committed to responsible and transparent SMS communications. This section describes how and when we use SMS (text messaging) to communicate with our users.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.2 What We Send</h3>
+          <p className="text-gray-600 mb-6">
+            Lifecycle Loop <strong>only sends alert related text messages</strong> via SMS. We do not send marketing, promotional, or advertising messages of any kind.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.3 Opt-In</h3>
+          <p className="text-gray-600 mb-6">
+            SMS notifications are optional. You may opt in to receive transactional SMS messages during the account registration process by checking the SMS opt-in box. Opting in is not required to use the Lifecycle Loop platform.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.4 Opt-Out</h3>
+          <p className="text-gray-600 mb-6">
+            You may opt out of SMS notifications at any time by replying <strong>STOP</strong> to any message you receive from us. After opting out, you will no longer receive SMS messages from Lifecycle Loop. To re-enable SMS notifications, contact us at <a href="mailto:support@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">support@trylifecycleloop.com</a>.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.5 Help</h3>
+          <p className="text-gray-600 mb-6">
+            For help with SMS messages, reply <strong>HELP</strong> to any message or contact us at <a href="mailto:support@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">support@trylifecycleloop.com</a> or <a href="tel:+15123947823" className="text-[#1A1A1A] hover:text-[#555555]">(512) 394-7823</a>.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.6 Message &amp; Data Rates</h3>
+          <p className="text-gray-600 mb-6">
+            Message and data rates may apply depending on your mobile carrier and plan. Message frequency varies based on your account activity. Lifecycle Loop is not responsible for any charges incurred from your mobile carrier.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.7 Data Privacy</h3>
+          <p className="text-gray-600 mb-6">
+            <strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong> Your phone number and SMS opt-in status are used solely to deliver alert related text messages as described in this section and our{' '}
+            <Link href="/privacy" className="text-[#1A1A1A] hover:text-[#555555] underline">Privacy Policy</Link>.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.8 Carrier Disclaimer</h3>
+          <p className="text-gray-600 mb-6">
+            Carriers are not liable for delayed or undelivered messages. Delivery of SMS messages is subject to your mobile carrier&apos;s network availability and coverage.
+          </p>
+
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">17. Contact Information</h2>
           <p className="text-gray-600 mb-4">
             If you have any questions about these Terms, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@voltinternalcomms.com" className="text-[#1A1A1A] hover:text-[#555555]">legal@voltinternalcomms.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@voltinternalcomms.com" className="text-[#1A1A1A] hover:text-[#555555]">support@voltinternalcomms.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#1A1A1A] hover:text-[#555555]">https://voltinternalcomms.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">legal@trylifecycleloop.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@trylifecycleloop.com" className="text-[#1A1A1A] hover:text-[#555555]">support@trylifecycleloop.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#1A1A1A] hover:text-[#555555]">https://trylifecycleloop.com</a></p>
           </div>
 
         </div>
@@ -259,9 +306,9 @@ export default function TermsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <span className="text-2xl font-extrabold text-white tracking-tight">Volt Internal Comms</span>
+              <span className="text-2xl font-extrabold text-white tracking-tight">Lifecycle Loop</span>
               <p className="text-gray-400 mt-3">
-                Volt Internal Comms — loyalty tracking software that drives real engagement.
+                Lifecycle Loop — loyalty tracking software that drives real engagement.
               </p>
             </div>
             <div>
@@ -292,12 +339,20 @@ export default function TermsPage() {
                     Terms of Service
                   </Link>
                 </li>
+                <li>
+                  <Link href="/sms-policy" className="text-gray-400 hover:text-white">
+                    SMS Policy
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@voltinternalcomms.com
+                support@trylifecycleloop.com
+              </p>
+              <p className="text-gray-400 mt-1">
+                (512) 394-7823
               </p>
               <p className="text-gray-400 mt-2 text-sm">
                 847 Commerce Blvd, Suite 312<br />
@@ -306,8 +361,22 @@ export default function TermsPage() {
               </p>
             </div>
           </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 Volt Internal Comms. All rights reserved.</p>
+          <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-gray-400">
+            <p>&copy; 2026 Lifecycle Loop. All rights reserved.</p>
+            <div className="flex items-center gap-4">
+              {/* LinkedIn */}
+              <a href="https://www.linkedin.com/company/lifecycleloop/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              {/* Google */}
+              <a href="https://share.google/Nl9xEk7kfvDH5ZuOs" target="_blank" rel="noopener noreferrer" aria-label="Google" className="text-gray-400 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/>
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </footer>

@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Shield, Target, Users, TrendingUp, Gift, BarChart3 } from 'lucide-react';
+import Image from 'next/image';
+import { Shield, Target, Users, TrendingUp, Award, BarChart3 } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -10,7 +11,7 @@ export default function AboutPage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-3xl font-extrabold text-[#1A1A1A] tracking-tight">Volt Internal Comms</span>
+                <Image src="/logo-nav.png" alt="Lifecycle Loop" width={180} height={48} className="h-12 w-auto object-contain" />
               </Link>
             </div>
             <div className="hidden md:block">
@@ -27,8 +28,11 @@ export default function AboutPage() {
                 <Link href="/terms" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
+                <Link href="/contact" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                  Contact
+                </Link>
                 <Link href="/signup" className="bg-[#EFE810] text-[#1A1A1A] hover:bg-[#d4cd00] px-4 py-2 rounded-md text-sm font-semibold">
-                  Get Started
+                  Request Access
                 </Link>
               </div>
             </div>
@@ -41,10 +45,10 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-extrabold text-[#1A1A1A] mb-6">
-              About Volt Internal Comms
+              About Lifecycle Loop
             </h1>
             <p className="text-xl text-[#555555] max-w-3xl mx-auto">
-              We&apos;re building the future of customer engagement — helping businesses of all sizes create loyalty programs that actually work, drive repeat revenue, and turn customers into advocates.
+              We&apos;re building the future of employee engagement — helping companies of all sizes create recognition programs that actually work, drive retention, and turn employees into advocates.
             </p>
           </div>
         </div>
@@ -56,13 +60,13 @@ export default function AboutPage() {
           <div>
             <h2 className="text-4xl font-bold text-[#1A1A1A] mb-6">Our Mission</h2>
             <p className="text-lg text-[#555555] mb-4">
-              Volt Internal Comms was built to solve a fundamental business problem: acquiring a new customer costs 5–7x more than retaining an existing one, yet most businesses invest almost nothing in keeping customers coming back.
+              Lifecycle Loop was built to solve a fundamental workplace problem: companies spend enormous resources acquiring talent, yet invest almost nothing in keeping employees engaged, recognized, and motivated to stay.
             </p>
             <p className="text-lg text-[#555555] mb-4">
-              We provide a simple, powerful internal communications platform that makes it easy to reward engagement, understand customer behavior, and build lasting relationships that drive real revenue growth.
+              We provide a simple, powerful employee engagement platform that makes it easy to recognize effort, reward performance, and build a culture people genuinely love — from day one through every milestone.
             </p>
             <p className="text-lg text-[#555555]">
-              Our goal is to make enterprise-grade loyalty programs accessible to every business — from local shops to national brands.
+              Our goal is to make enterprise-grade engagement programs accessible to every workplace — from small teams to large enterprises.
             </p>
           </div>
           <div className="bg-[#F9F9F9] rounded-2xl p-8 border border-[#E5E7EB]">
@@ -76,7 +80,7 @@ export default function AboutPage() {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Results-Driven</h3>
                   <p className="text-[#555555]">
-                    Every feature is built to drive measurable outcomes — repeat visits, higher spend, and lower churn.
+                    Every feature is built to drive measurable outcomes — higher engagement, lower turnover, and stronger team culture.
                   </p>
                 </div>
               </div>
@@ -89,7 +93,7 @@ export default function AboutPage() {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Privacy First</h3>
                   <p className="text-[#555555]">
-                    Your customers&apos; data is protected with enterprise-grade security. We never sell customer data.
+                    Employee data is protected with enterprise-grade security. We never sell employee data to third parties.
                   </p>
                 </div>
               </div>
@@ -102,7 +106,7 @@ export default function AboutPage() {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Built to Scale</h3>
                   <p className="text-[#555555]">
-                    Start with a simple points program and grow into advanced tiers, segmentation, and automation.
+                    Start with a simple recognition program and grow into advanced tiers, segmentation, and team-wide automation.
                   </p>
                 </div>
               </div>
@@ -115,20 +119,20 @@ export default function AboutPage() {
       <section className="bg-[#F9F9F9] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#1A1A1A] mb-4">Why Businesses Choose Volt Internal Comms</h2>
+            <h2 className="text-4xl font-bold text-[#1A1A1A] mb-4">Why Companies Choose Lifecycle Loop</h2>
             <p className="text-xl text-[#555555]">
-              Trusted by businesses that understand the value of keeping customers coming back
+              Trusted by teams that understand the value of keeping employees engaged and recognized
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="bg-[#EFE810] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Gift className="w-8 h-8 text-[#1A1A1A]" />
+                <Award className="w-8 h-8 text-[#1A1A1A]" />
               </div>
-              <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Flexible Rewards</h3>
+              <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Flexible Recognition</h3>
               <p className="text-[#555555]">
-                Points, tiers, cashback, free items — build the program that fits your business model.
+                Points, badges, peer shoutouts, milestone rewards — build the program that fits your culture.
               </p>
             </div>
 
@@ -136,9 +140,9 @@ export default function AboutPage() {
               <div className="bg-[#EFE810] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <BarChart3 className="w-8 h-8 text-[#1A1A1A]" />
               </div>
-              <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Deep Analytics</h3>
+              <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Engagement Analytics</h3>
               <p className="text-[#555555]">
-                Understand exactly which rewards drive the most engagement and revenue.
+                Understand exactly which programs drive the most participation, morale, and retention.
               </p>
             </div>
 
@@ -146,9 +150,9 @@ export default function AboutPage() {
               <div className="bg-[#EFE810] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-[#1A1A1A]" />
               </div>
-              <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Multi-Brand Support</h3>
+              <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Multi-Team Support</h3>
               <p className="text-[#555555]">
-                Run loyalty programs across multiple locations or brands from a single dashboard.
+                Run engagement programs across multiple departments, locations, or remote teams from one dashboard.
               </p>
             </div>
 
@@ -156,9 +160,9 @@ export default function AboutPage() {
               <div className="bg-[#EFE810] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Target className="w-8 h-8 text-[#1A1A1A]" />
               </div>
-              <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Easy Integration</h3>
+              <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Easy Onboarding</h3>
               <p className="text-[#555555]">
-                Connect with your existing POS, e-commerce, or CRM system in minutes.
+                Employees join with a simple Company ID — no complex setup, no IT required.
               </p>
             </div>
           </div>
@@ -169,16 +173,16 @@ export default function AboutPage() {
       <section className="bg-[#1A1A1A] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to Build Real Loyalty?
+            Ready to Build a Culture People Love?
           </h2>
           <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Join thousands of businesses using Volt Internal Comms to drive repeat revenue and deeper customer relationships.
+            Join companies using Lifecycle Loop to recognize, reward, and retain their best people. Request access today.
           </p>
           <Link
             href="/signup"
             className="inline-block px-8 py-4 bg-[#EFE810] text-[#1A1A1A] text-lg font-semibold rounded-lg hover:bg-[#d4cd00] transition-colors shadow-lg"
           >
-            Get Started Free
+            Request Access
           </Link>
         </div>
       </section>
@@ -188,9 +192,9 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <span className="text-2xl font-extrabold text-white tracking-tight">Volt Internal Comms</span>
+              <span className="text-2xl font-extrabold text-white tracking-tight">Lifecycle Loop</span>
               <p className="text-gray-400 mt-3">
-                Volt Internal Comms — loyalty tracking software that drives real engagement.
+                Employee engagement software that drives real culture.
               </p>
             </div>
             <div>
@@ -203,7 +207,7 @@ export default function AboutPage() {
                 </li>
                 <li>
                   <Link href="/signup" className="text-gray-400 hover:text-white">
-                    Get Started
+                    Request Access
                   </Link>
                 </li>
               </ul>
@@ -221,12 +225,20 @@ export default function AboutPage() {
                     Terms of Service
                   </Link>
                 </li>
+                <li>
+                  <Link href="/sms-policy" className="text-gray-400 hover:text-white">
+                    SMS Policy
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@voltinternalcomms.com
+                support@trylifecycleloop.com
+              </p>
+              <p className="text-gray-400 mt-1">
+                (512) 394-7823
               </p>
               <p className="text-gray-400 mt-2 text-sm">
                 847 Commerce Blvd, Suite 312<br />
@@ -235,8 +247,22 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 Volt Internal Comms. All rights reserved.</p>
+          <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-gray-400">
+            <p>&copy; 2026 Lifecycle Loop. All rights reserved.</p>
+            <div className="flex items-center gap-4">
+              {/* LinkedIn */}
+              <a href="https://www.linkedin.com/company/lifecycleloop/?viewAsMember=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
+              {/* Google */}
+              <a href="https://share.google/Nl9xEk7kfvDH5ZuOs" target="_blank" rel="noopener noreferrer" aria-label="Google" className="text-gray-400 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"/>
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </footer>
